@@ -359,7 +359,7 @@ export default function Home() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-lg border-b border-white/10">
+      {/* <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold text-gradient">Projectory Solutions</div>
           <div className="hidden md:flex gap-8">
@@ -373,7 +373,7 @@ export default function Home() {
             Get Started
           </button>
         </div>
-      </nav>
+      </nav> */}
 
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -468,21 +468,21 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: 'Sarah Chen',
+                name: 'Deepika Rao',
                 role: 'CEO',
                 company: 'FinFlow Inc',
-                text: 'TechForge transformed our vision into a production-ready platform in just 12 weeks. Their technical expertise and attention to detail are unmatched.',
+                text: 'Projectory Solutions transformed our vision into a production-ready platform in just 12 weeks. Their technical expertise and attention to detail are unmatched.',
                 rating: 5
               },
               {
-                name: 'Marcus Rodriguez',
+                name: 'Ravi Patel',
                 role: 'CTO',
                 company: 'HealthTech Solutions',
                 text: 'The AI model they built exceeded our accuracy requirements by 15%. Professional, responsive, and highly skilled team.',
                 rating: 5
               },
               {
-                name: 'Emily Watson',
+                name: 'Prakash Shetty',
                 role: 'Founder',
                 company: 'ShopSmart',
                 text: 'Our conversion rate increased by 40% after the platform redesign. They truly understand both technology and business outcomes.',
@@ -623,7 +623,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="text-2xl font-bold text-gradient mb-4">TechForge</div>
+              <div className="text-2xl font-bold text-gradient mb-4">Projectory solutions</div>
               <p className="text-gray-400">Building the future of technology, one project at a time.</p>
             </div>
             <div>
@@ -648,14 +648,14 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>LinkedIn</li>
-                <li>Twitter</li>
-                <li>GitHub</li>
-                <li>Dribbble</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 TechForge Solutions. All rights reserved.</p>
+            <p>&copy; 2025 Projectory Solutions. All rights reserved.</p>
           </div>
         </div>
       </footer>
